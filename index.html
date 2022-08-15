@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <title>DrivenEats</title>
+</head>
+<body>
+    <div class="corpo"> 
+        
+        <div class="topo">
+            <div class="logo"><h1>DrivenEats</h1>
+                <p>Sua comida em 6 minutos</p>
+            </div>
+        </div>
+     <div class="menu-prato">
+        <div class="texto">
+             <div class="texto-informativo">
+                 <h2> Primeiro, seu prato</h2>
+                    </div>
+            </div>
+            <div class="cardapio">
+                <div class="pratos-imagem-comida" id="strogonofe" onclick="selecionarComida(strogonofe)">
+                    <div class="pratos-conteudo">
+                         <img src="imagens/estrogonofe.jpg">
+                         <div class="div-textos">
+                             <h3>Estrogonofre </h3>
+                                <p2>Frango com arroz, um pouco de batata</p2>
+                         <div class="preco"><p>R$ <span >16,90</span ></p>
+                            <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                         </div>
+                        </div>
+                     </div> 
+                </div>
+                <div class="pratos-imagem-comida "  id="frango" onclick="selecionarComida(frango)">
+                    <div class="pratos-conteudo">
+                         <img src="imagens/frango_yin_yang 2.png">
+                         <div class="div-textos">
+                             <h3>Frango Yin Yang</h3>
+                                <p2>Um pouco de batata, um pouco de salada</p2>
+                                <div class="preco">
+                                    <p>R$ <span >18,90</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                                    
+                        </div>
+                     </div> 
+                </div>
+                <div class="pratos-imagem-comida " id="bife"  onclick="selecionarComida(bife)">
+                    <div class="pratos-conteudo">
+                         <img src="imagens/bife-acavalo-parmegiana.jpg">
+                         <div class="div-textos">
+                             <h3>Bife Parmegiana</h3>
+                                <p2>Acompanha Arroz e Batata frita</p2>
+                                <div class="preco">
+                                    <p>R$ <span >21,90</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>
+                <div class="pratos-imagem-comida " id="salada"  onclick="selecionarComida(salada)">
+                    <div class="pratos-conteudo">
+                         <img src="imagens/saladaceasar-frango.jpg">
+                         <div class="div-textos">
+                             <h3>Salada Ceasar </h3>
+                                <p2>Ao frango e molho branco</p2>
+                                <div class="preco">
+                                    <p>R$ <span >24,90</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>
+                <div class="pratos-imagem-comida " id="franguinho"  onclick="selecionarComida(franguinho)" >
+                    <div class="pratos-conteudo">
+                         <img src="imagens/franguinho.jpg">
+                         <div class="div-textos">
+                             <h3>Franguinho Frito</h3>
+                                <p2>Acompanha batata frita e molho </p2>
+                                <div class="preco">
+                                    <p>R$ <span >29,90</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>
+                <div class="pratos-imagem-comida " id="hambuguer"  onclick="selecionarComida(hambuguer)" >
+                    <div class="pratos-conteudo">
+                         <img src="imagens/haburguer.jpg">
+                         <div class="div-textos">
+                             <h3>Blend da Casa</h3>
+                                <p2>Carne artesanal e um molho delicioso</p2>
+                                <div class="preco">
+                                    <p>R$ <span >31,90</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>
+                
+                
+            </div>
+     <div class="texto">
+         <div class="texto-informativo">
+              <h2> Agora, sua bebida</h2>
+                </div>
+            </div>
+            <div class="cardapio">
+                <div  class="pratos-imagem-bebida" id="cocaorig"  onclick="selecionarBebida(cocaorig)">
+                    <div class="pratos-conteudo">
+                         <img src="imagens/coca-original.jpg">
+                         <div class="div-textos">
+                             <h3>Coca-Cola Lata</h3>
+                                <p2>Lata 350ml</p2>
+                                <div class="preco">
+                                    <p>R$ <span >5,50</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>
+                <div  class="pratos-imagem-bebida" id="coca" onclick="selecionarBebida(coca)">
+                    <div class="pratos-conteudo">
+                        <img src="imagens/coca-semacucar.jpg">
+                         <div class="div-textos">
+                             <h3>Coca-Cola Zero</h3>
+                                <p2>Lata 350ml</p2>
+                                <div class="preco">
+                                    <p>R$ <span >5,30</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>
+                <div  class="pratos-imagem-bebida" id="fantalar"  onclick="selecionarBebida(fantalar)">
+                    <div class="pratos-conteudo">
+                        <img src="imagens/fantalaranja.jpg">
+                         <div class="div-textos">
+                             <h3>Fanta Laranja</h3>
+                                <p2>Lata 310ml</p2>
+                                <div class="preco">
+                                    <p>R$ <span >4,90</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>
+                <div  class="pratos-imagem-bebida"  id="fantauv" onclick="selecionarBebida(fantauv)">
+                    <div class="pratos-conteudo">
+                        <img src="imagens/fantauva.jpg">
+                         <div class="div-textos">
+                             <h3>Fanta Uva</h3>
+                                <p2>Lata 350ml</p2>
+                                <div class="preco">
+                                    <p>R$ <span >4,90</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>
+                <div  class="pratos-imagem-bebida" id="guarana" onclick="selecionarBebida(guarana)">
+                    <div class="pratos-conteudo">
+                        <img src="imagens/guarana.jpg">
+                         <div class="div-textos">
+                             <h3>Guaraná</h3>
+                                <p2>Lata 350ml</p2>
+                                <div class="preco">
+                                    <p>R$ <span >4,90</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>
+                <div  class="pratos-imagem-bebida id="guaranazer"  onclick="selecionarBebida(guaranazer)">
+                    <div class="pratos-conteudo">
+                        <img src="imagens/guaranazero.jpg">
+                         <div class="div-textos">
+                             <h3>Guaraná Zero</h3>
+                                <p2>Lata 350ml</p2>
+                                <div class="preco">
+                                    <p>R$ <span >5,30</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>                           
+            </div>
+      <div class="texto">
+         <div class="texto-informativo">
+            <h2>Por fim, sua sobremesa </h2>
+                </div>
+            </div>
+            <div class="cardapio">
+                <div class="pratos-imagem-sobremesa" id="pudim"onclick="selecionarSobremesa(pudim)">
+                    <div class="pratos-conteudo">
+                         <img src="imagens/fatiapudim.jpg">
+                         <div class="div-textos">
+                             <h3>Pudim</h3>
+                                <p2>Fatia de Pudim delicioso de Leite</p2>
+                                <div class="preco">
+                                    <p>R$ <span >7,90</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>
+                <div class="pratos-imagem-sobremesa" id="tortalima"onclick="selecionarSobremesa(tortalima)">
+                    <div class="pratos-conteudo">
+                          <img src="imagens/tortalimao.jpg">
+                         <div class="div-textos">
+                             <h3>Torta Limão</h3>
+                                <p2>Fatia deliciosa de torta de limão</p2>
+                                <div class="preco">
+                                    <p>R$ <span >11  ,90</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>
+                <div class="pratos-imagem-sobremesa" id="tortamor" onclick="selecionarSobremesa(tortamor)">
+                    <div class="pratos-conteudo">
+                          <img src="imagens/tortamorango.jpg">
+                         <div class="div-textos">
+                             <h3>Torta de Morango</h3>
+                                <p2>Fatia deliciosa de torta de morango</p2>
+                                <div class="preco">
+                                    <p>R$ <span >12,90</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>
+                <div class="pratos-imagem-sobremesa" id="bolochoc" onclick="selecionarSobremesa(bolochoc)">
+                    <div class="pratos-conteudo">
+                          <img src="imagens/bolochocolate.jpg">
+                         <div class="div-textos">
+                             <h3>Bolo de Chocolate</h3>
+                                <p2>Fatia deliciosa de Bolo de Chocolate</p2>
+                                <div class="preco">
+                                    <p>R$ <span >9,90</span ></p>
+                                    <ion-icon name="checkmark-circle" class="escondido"></ion-icon>
+                                </div>
+                        </div>
+                     </div> 
+                </div>                              
+            </div>
+        </div>
+        
+        <div class="fechar-pedido">
+            <div class="msg-pedidos" onclick="fazerPedido()"> <h1>Selecione os 3 itens <br> para fechar o pedido</h1>
+               <div class="msg"></div>
+            </div>
+        </div>
+        
+     </div>
+     
+     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+     <script src="script.js"></script>
+</body> 
+</html>

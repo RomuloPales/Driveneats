@@ -1,0 +1,164 @@
+body{
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+.corpo{
+    background-color:#E5E5E5;
+    width: 100%;
+    height: 950px;
+    
+}
+.topo{
+    background-color:#CF2B2B;
+    width: 100%;
+    height: 92px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    position: fixed;
+    top:0px;
+    left: 0px;    
+    }
+.logo{
+    background-color: #CF2B2B;
+    width: 248px;
+    height: 64px;
+    margin-left: 21px;
+}
+.logo h1{
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+    color:#ffffff;
+    margin-bottom: 5px;
+}
+.logo p{
+    font-family: font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+.menu-prato{
+    background-color;
+    margin-top: 123px;
+}
+.texto{
+
+    width: 250px;
+    height: 25px;
+    margin-left: 19px;
+    margin-top: 31px;
+    margin-bottom: 17px; 
+    }   
+    .texto-informativo{
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+    white-space: nowrap;
+    }
+    .cardapio{
+        display: flex;
+        overflow: scroll;
+        
+        
+    }
+    .pratos-imagem-comida, .pratos-imagem-bebida, .pratos-imagem-sobremesa{
+        background-color: #ffffff;
+        width: 172px;
+        height: 216px; 
+        margin-left: 16px; 
+        font-family: font-family: 'Roboto', sans-serif;
+        border-radius:9px;
+        box-shadow: 0px 0px 10px -4px #00000040;      
+        
+    }
+     img{
+        width: 144px;
+        height: 87px;
+        border-radius: 4px;
+        }
+    .pratos-conteudo{
+        background-color: ;
+        margin: 14px 18px;
+    } 
+    h3{
+        font-Weight: 700;
+        font-size: 16px;
+        color:  #333333;
+        font-style: bold;
+        line-height: 25px;
+
+    }
+     p2{
+        color:  #A6A6A6;
+        font-family: font-family: 'Roboto', sans-serif;
+        
+        font-Weight: 300;
+        font-size: 14px;  
+        line-height: 18px;
+     
+    }
+     p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .div-textos{
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .fechar-pedido{
+        background-color: #ffffff;
+        width: 100%;
+        height: 92px;
+        display: flex;   
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+    .msg-pedidos{
+        background-color: #CBCBCB;
+        width: 364px;
+        height: 61PX;
+        border-radius: 50px;
+        display: flex;
+      align-items: center;
+      justify-content: center;
+      
+        
+    }
+    .preco{
+        display: flex;
+        justify-content: space-between;
+    }
+    .selecionado ion-icon{
+    display: initial;
+    width: 19px;
+    height: 19px;
+    color:#32B72F;
+    z-index: 0;
+    
+    }
+   
+    .selecionado{
+    box-shadow: 0px 0px 0px 5px #32B72F inset;
+    
+
+  }
+  ion-icon{ 
+    display: none;
+  }
+
+  .confirmado{
+    background-color:#32B72F;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+}
+  
+ 
