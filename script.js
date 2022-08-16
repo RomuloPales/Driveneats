@@ -94,7 +94,7 @@ function fazerPedido(){
 
         let uri = encodeURIComponent(pedido)
 
-        window.open( 'https://wa.me/5527999878756?text='+uri)
+        window.open( 'https://wa.me/5527997259951?text='+uri)
 
         console.log(pedido); 
 }   
