@@ -69,8 +69,8 @@ function fazerPedido(){
        const nomesobremesa = document.querySelector('.pratos-imagem-sobremesa.selecionado h3');
        
         const precocomida = document.querySelector('.pratos-imagem-comida.selecionado span');     
-        const precobebida = document.querySelector('.pratos-imagem-comida.selecionado span');
-        const precosobremesa = document.querySelector('.pratos-imagem-comida.selecionado span');
+        const precobebida = document.querySelector('.pratos-imagem-bebida.selecionado span');
+        const precosobremesa = document.querySelector('.pratos-imagem-sobremesa.selecionado span');
 
         const comidaPedida = nomecomida.innerHTML;
         const bebidaPedida = nomebebida.innerHTML;
